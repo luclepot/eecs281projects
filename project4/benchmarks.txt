@@ -1,0 +1,8 @@
+            |   brute force     |   pruning        |
+----------------------------------------------------
+sample-e    |  0.230 - 0.290 ms |
+            |  6235301 branches |
+input       |  0.010 - 0.030 ms |
+            |  41      branches |
+test-10     |  0.030 - 0.040 ms |
+            |  8660    branches |

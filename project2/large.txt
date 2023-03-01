@@ -1,0 +1,6 @@
+R
+Size: 10000
+Start: 9999 9999
+Seed: 2390438
+Max_Rubble: 10
+TNT: 5

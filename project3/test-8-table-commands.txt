@@ -1,0 +1,20 @@
+CREATE 281class 3 string string bool emotion person yeet
+INSERT INTO 281class 8 ROWS
+happy Darden true
+stressed students false
+busy office_hours true
+stressed students true
+stressed Paoletti true
+happy Darden true
+happy Sith true
+victorious Sith true
+PRINT FROM 281class 2 person notreal ALL
+PRINT FROM 281class 2 person notreal WHERE person = Paoletti
+PRINT FROM 281class 2 person emotion WHERE person = nobody
+PRINT FROM 281class 2 person emotion WHERE notreal = Paoletti
+PRINT FROM 281class 3 person emotion yeet WHERE yeet = true
+DELETE FROM 281class WHERE yeet = true
+ZZNOTCOMMAND
+PRINT FROM 281class 1 person ALL
+PRINT FROM nottable 1 person ALL
+QUIT

@@ -1,0 +1,6 @@
+CREATE table 4 string int bool double s i b d
+INSERT INTO table 2 ROWS
+2001 -213098 false 1
+second 2 true 2.0
+PRINT FROM table 4 s i b d ALL
+QUIT

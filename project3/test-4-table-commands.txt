@@ -1,0 +1,31 @@
+# Tests that mf printing behavior - DONT print with a hash table
+# ya mf busta. Also, deleting nonexistent column, and error 
+# handling
+CREATE 281class 3 string string bool emotion person Y/N
+INSERT INTO 281class 8 ROWS
+happy Darden true
+stressed students false
+busy office_hours true
+stressed students true
+stressed Paoletti true
+happy Darden true
+happy Sith true
+victorious Sith true 	
+DELETE FROM 281class WHERE person = Sith
+DELETE FROM 281class WHERE person = Nonexistent
+DELETE FROM 281class WHERE error = error
+PRINT FROM 281class 2 person emotion WHERE person < z
+PRINT FROM 281class 2 person emotion WHERE person > A
+PRINT FROM 281class 2 person emotion WHERE person = Darden
+GENERATE FOR 281class bst INDEX ON person
+PRINT FROM 281class 2 person emotion WHERE person < z
+PRINT FROM 281class 2 person emotion WHERE person > A
+PRINT FROM 281class 2 person emotion WHERE person = Darden
+GENERATE FOR 281class hash INDEX ON person
+PRINT FROM 281class 2 person emotion WHERE person < z
+PRINT FROM 281class 2 person emotion WHERE person > A
+PRINT FROM 281class 2 person emotion WHERE person = Darden
+DELETE FROM 281class WHERE Y/N = true
+DELETE FROM 281class WHERE Y/N = false
+PRINT FROM 281class 3 person emotion Y/N ALL
+QUIT

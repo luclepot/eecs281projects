@@ -1,0 +1,9 @@
+C
+6
+// this is to test whether comments are allowed
+cans
+cnas
+can[dp]
+camp
+amp
+nas&

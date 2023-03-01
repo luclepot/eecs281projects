@@ -1,0 +1,39 @@
+CREATE zero 0
+INSERT INTO zero 300 ROWS
+PRINT FROM zero 0 ALL
+DELETE FROM zero WHERE not = true
+PRINT FROM zero 0 WHERE not = true
+REMOVE zero
+# smallll ass table
+CREATE tab 3 bool int string bc ic sc
+CREATE tab2 3 bool int string bc ic sc
+INSERT INTO tab 3 ROWS
+true 1 row1
+false 2 row2
+true 3 row3
+INSERT INTO tab2 6 ROWS
+false 0 row1
+true 1 row2
+false 2 row3
+true 2 row4
+false 2 row5
+true 3 row6
+PRINT FROM tab 3 sc bc ic WHERE bc = true
+PRINT FROM tab2 3 sc bc ic WHERE bc = true
+INSERT INTO tab 3 ROWS
+false 4 row4
+true 5 row5
+false 6 row6
+PRINT FROM tab 3 ic sc bc WHERE bc = false
+GENERATE FOR tab bst INDEX ON sc
+GENERATE FOR tab2 bst INDEX ON ic
+DELETE FROM tab WHERE ic < 2
+DELETE FROM tab2 WHERE ic < 2
+JOIN tab AND tab2 WHERE ic = ic AND PRINT 6 ic 1 ic 2 bc 1 bc 2 sc 1 sc 2
+GENERATE FOR tab2 hash INDEX ON ic
+JOIN tab AND tab2 WHERE ic = ic AND PRINT 6 ic 1 ic 2 bc 1 bc 2 sc 1 sc 2
+DELETE FROM tab2 WHERE ic < 2
+DELETE FROM tab2 WHERE ic > 2
+JOIN tab AND tab2 WHERE ic = ic AND PRINT 6 ic 1 ic 2 bc 1 bc 2 sc 1 sc 2
+JOIN tab2 AND tab WHERE ic = ic AND PRINT 6 ic 1 ic 2 bc 1 bc 2 sc 1 sc 2
+QUIT

@@ -1,0 +1,72 @@
+% % % % New table 281class with column(s) emotion person Y/N created
+% Added 8 rows to 281class from position 0 to 7
+% Deleted 2 rows from 281class
+% Deleted 0 rows from 281class
+% Error: error does not name a column in 281class
+% person emotion 
+Darden happy 
+students stressed 
+office_hours busy 
+students stressed 
+Paoletti stressed 
+Darden happy 
+Printed 6 matching rows from 281class
+% person emotion 
+Darden happy 
+students stressed 
+office_hours busy 
+students stressed 
+Paoletti stressed 
+Darden happy 
+Printed 6 matching rows from 281class
+% person emotion 
+Darden happy 
+Darden happy 
+Printed 2 matching rows from 281class
+% Created bst index for table 281class on column person
+% person emotion 
+Darden happy 
+Darden happy 
+Paoletti stressed 
+office_hours busy 
+students stressed 
+students stressed 
+Printed 6 matching rows from 281class
+% person emotion 
+Darden happy 
+Darden happy 
+Paoletti stressed 
+office_hours busy 
+students stressed 
+students stressed 
+Printed 6 matching rows from 281class
+% person emotion 
+Darden happy 
+Darden happy 
+Printed 2 matching rows from 281class
+% Created hash index for table 281class on column person
+% person emotion 
+Darden happy 
+students stressed 
+office_hours busy 
+students stressed 
+Paoletti stressed 
+Darden happy 
+Printed 6 matching rows from 281class
+% person emotion 
+Darden happy 
+students stressed 
+office_hours busy 
+students stressed 
+Paoletti stressed 
+Darden happy 
+Printed 6 matching rows from 281class
+% person emotion 
+Darden happy 
+Darden happy 
+Printed 2 matching rows from 281class
+% Deleted 5 rows from 281class
+% Deleted 1 rows from 281class
+% person emotion Y/N 
+Printed 0 matching rows from 281class
+% Thanks for being silly!

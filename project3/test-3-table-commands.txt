@@ -1,0 +1,10 @@
+Create table 3 string int bool name age likesCandy
+INSERT INTO table 5 rows
+bob 5 true
+cat 7 false
+luc 3 true
+jon 4 false
+jim 4 true
+GENERATE FOR table bst INDEX ON name
+PRINT FROM table 2 name age WHERE name > a
+QUIT

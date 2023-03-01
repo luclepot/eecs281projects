@@ -1,0 +1,17 @@
+CREATE 281class 3 string string bool emotion person yeet
+INSERT INTO 281class 8 ROWS
+happy Darden true
+stressed students false
+busy office_hours true
+stressed students true
+stressed Paoletti true
+happy Darden true
+happy Sith true
+victorious Sith true
+GENERATE FOR 281class bst INDEX ON person
+DELETE FROM 281class WHERE person > A
+PRINT FROM 281class 3 emotion yeet person WHERE person < a
+DELETE FROM 281class WHERE person > Darden
+DELETE FROM 281class WHERE person < Darden
+PRINT FROM 281class 3 emotion yeet person ALL
+QUIT

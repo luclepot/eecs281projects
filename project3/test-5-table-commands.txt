@@ -1,0 +1,19 @@
+CREATE empty 1 bool yeet
+INSERT INTO empty 7 ROWS
+true
+false
+false
+false
+true
+true
+false
+GENERATE FOR empty hash INDEX ON yeet
+PRINT FROM empty 0 WHERE yeet > true
+PRINT FROM empty 2 yeet nothere WHERE yeet = false
+GENERATE FOR empty bst INDEX ON yeet
+PRINT FROM empty 1 yeet ALL
+DELETE FROM empty WHERE yeet = true
+DELETE FROM empty WHERE yeet = false
+PRINT FROM empty 1 yeet ALL
+REMOVE empty
+QUIT

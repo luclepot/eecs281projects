@@ -1,0 +1,10 @@
+C
+7
+//This generates something
+ch[io]p
+junk
+st!ar
+sh[io]p
+shot
+stop&
+le?t
